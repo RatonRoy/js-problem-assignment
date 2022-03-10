@@ -256,3 +256,9 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+.section-center{
+  width: 80vw;
+  margin: 2rem auto; 
+  background-color: aquamarine;
+  padding: 1rem;
+}
