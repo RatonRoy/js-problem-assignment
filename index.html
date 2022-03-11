@@ -32,8 +32,8 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-                <a class="navbar-brand" href="#">Insta-Sohor</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 section">
+                <a class="navbar-brand logo" href="#">Insta-Sohor</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -66,7 +66,7 @@
                 </div>
             </nav>
         </header>
-        <main class="main container mx-auto p-3">
+        <main class="main container mx-auto p-3 section">
             <div id="posts">
             </div>
             <div id="liked">
@@ -77,14 +77,15 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
-        <section id="question" class="section-center">
-            <h1>What is the difference between Local storage and session storage? </h1>
+        <section id="question" class="question-section section ">
+            <h1 class="section-title">Question Section</h1>
+            <h3>What is the difference between Local storage and session storage? </h3>
             <p class="question-answer">
                 In my opinion, localStorage and sessionStorage is store data but there have some differences that depend on the users or developers. If someone needs to store data temporarily then use session storage because the data are removed when the user closes the browser tab or window.    Another thing is if someone needs to store data for long terms then use the local storage because the data remain until the user or developer deletes it explicitly. 
                    LocalStorage and sessionStorage allow storing key/value in the browser.Both key and value must be strings.
 
             </p>
-            <h1 class="question">How does javascript work?</h1>
+            <h3 class="question">How does javascript work?</h3>
             <p class="question-answer">
                 We know that JavaScript is an interpreted language, not a compiled language. So JavaScript codes do not take time to compile instead the browser reads the code line by line and runs. One important thing I want to repeat is that we do not need an extra machine to run JavaScript code because the chrome browser's remaining v8 engine is called the javaScript engine. Every modern browser supports JavaScript code. In the JavaScript code document-like app.js, the js code running order is top to bottom so every coder needs to type carefully their code if the code order is not set properly users do not get the proper output. 
             </p>

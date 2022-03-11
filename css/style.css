@@ -256,9 +256,28 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.section-center{
-  width: 80vw;
-  margin: 2rem auto; 
+/* **************************
+  My styles 
+*********************************/
+body{
+  background-color: #ade8f4;
+}
+.logo{
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+}
+.section{
+  width: 85vw;
+  padding: 2rem 1.5rem;
+  margin: 1rem auto;
+}
+.section-title{
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding: 2rem 0;
+}
+.question-section{
   background-color: aquamarine;
   padding: 2rem 2.5rem; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
