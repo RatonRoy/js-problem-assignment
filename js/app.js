@@ -146,17 +146,17 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
-    const likedPosts = getLikedPosts();
-    likedPosts.forEach((post) => {
+  const likedPosts = getLikedPosts();
+  likedPosts.forEach((post) => {
         const div = createPost(post);
-        document.getElementById( "liked" ).appendChild(div);
-    });
+    document.getElementById("liked").appendChild(div);
+    likedPosts.length = 0;
+  });
 };
 
 const displayReportedPosts = () => {
   div.innerHTML = '';
   const reportedPosts = getReportedPosts(); 
-  // document.getElementById("reported").innerHTML = '';
   posts.forEach((post) => {
         const div = createPost(post);
         document.getElementById( "reported" ).appendChild(div);
