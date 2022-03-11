@@ -144,18 +144,18 @@ const showPosts = (posts) => {
 };
 
 const displayLikedPosts = () => {
-  // document.getElementById("liked").innerHTML = '';
-  document.getElementById("liked").innerText = '';
+  document.getElementById("liked").innerHTML = '';
+  // document.getElementById("liked").innerText = '';
   const likedPosts = getLikedPosts();
   likedPosts.forEach((post) => {
     const div = createPost(post);
     document.getElementById("liked").appendChild(div);
-    // likedPosts.length = 0;
   });
 };
 
 const displayReportedPosts = () => {
-  document.getElementById("reported").innerText = '';
+  // document.getElementById("reported").innerText = '';
+  document.getElementById("reported").innerHTML = '';
   const reportedPosts = getReportedPosts();
   reportedPosts.forEach((post) => {
     const div = createPost(post);
